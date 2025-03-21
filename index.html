@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replantea - Corporación Medioambiental</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Barra de redes sociales -->
+    <div class="social-bar">
+        <div class="container">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="contact-info">
+                <span><i class="fas fa-envelope"></i> contacto@replanteacorp.cl</span>
+                <span><i class="fas fa-phone"></i> +56 9 1234 5678</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header con navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/img/logo.svg" alt="Replantea Logo">
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section con slider -->
+    <section class="hero" id="inicio">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('assets/img/hero-1.png')">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Reinventamos el futuro del planeta</h1>
+                        <p>Mujeres profesionales dedicadas a crear soluciones medioambientales innovadoras y sostenibles.</p>
+                        <a href="#contacto" class="btn-primary">Contáctanos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/img/hero-2.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Expertas en reciclaje y medio ambiente</h1>
+                        <p>Desarrollamos proyectos que transforman residuos en recursos valiosos para un futuro sostenible.</p>
+                        <a href="#servicios" class="btn-primary">Nuestros Servicios</a>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('assets/img/hero-3.jpg')">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1>Comprometidas con Chile y el planeta</h1>
+                        <p>Creamos soluciones locales con impacto global para los desafíos medioambientales más urgentes.</p>
+                        <a href="#proyectos" class="btn-primary">Ver Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quiénes Somos</h2>
+                <div class="underline"></div>
+                <p>Un equipo de mujeres profesionales con una misión compartida</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/img/about-image.png" alt="Equipo Replantea">
+                </div>
+                <div class="about-text">
+                    <h3>Somos Replantea</h3>
+                    <p>Una corporación medioambiental fundada y liderada por mujeres profesionales chilenas comprometidas con la innovación en reciclaje y soluciones sostenibles. Nuestra experiencia multidisciplinaria nos permite desarrollar proyectos integrales que generan un impacto positivo en el medio ambiente y en las comunidades.</p>
+                    <p>Cada miembro de nuestro equipo aporta una perspectiva única y especializada, creando soluciones que equilibran la viabilidad económica con la responsabilidad ecológica.</p>
+                    <a href="#nosotros" class="btn-secondary">Conoce a nuestro equipo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Estadísticas Mejorada -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="stat-number" data-count="2500">0</div>
+                    <div class="stat-title">Árboles Plantados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <div class="stat-number" data-count="850">0</div>
+                    <div class="stat-title">Toneladas Recicladas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-count="120">0</div>
+                    <div class="stat-title">Comunidades Impactadas</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="stat-number" data-count="45">0</div>
+                    <div class="stat-title">Alianzas Estratégicas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section class="services" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Servicios</h2>
+                <div class="underline"></div>
+                <p>Soluciones integrales para desafíos medioambientales</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Consultoría Ambiental</h3>
+                    <p>Asesoramiento especializado en normativas ambientales, gestión de residuos y optimización de procesos para reducir la huella ecológica de tu organización.</p>
+                    <a href="#" class="btn-tertiary">Saber más</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Educación Ambiental</h3>
+                    <p>Programas educativos personalizados para empresas, instituciones y comunidades que promueven prácticas sostenibles y conciencia medioambiental.</p>
+                    <a href="#" class="btn-tertiary">Saber más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section class="projects" id="proyectos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proyectos Destacados</h2>
+                <div class="underline"></div>
+                <p>Nuestro impacto en acción</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/project-1.png" alt="Proyecto 1">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view">Ver Proyecto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Recuperación de Humedales</h3>
+                        <p>Restauración y conservación de ecosistemas acuáticos vitales para la biodiversidad local.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/img/project-2.png" alt="Proyecto 2">
+                        <div class="project-overlay">
+                            <a href="#" class="btn-view">Ver Proyecto</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Reciclaje Comunitario</h3>
+                        <p>Implementación de sistemas de reciclaje integral en comunidades vulnerables de la región.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <div class="underline"></div>
+                <p>Estamos aquí para ayudarte</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Santiago, Chile</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contacto@replanteacorp.cl</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+56 9 1234 5678</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre completo" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/img/logo-white.svg" alt="Replantea Logo">
+                    <p>Reinventando el futuro del planeta</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Suscríbete</h3>
+                    <p>Recibe nuestras últimas noticias y actualizaciones</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Ingresa tu correo electrónico">
+                        <button type="submit" class="btn-subscribe">Suscribirse</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Replantea Corp. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
